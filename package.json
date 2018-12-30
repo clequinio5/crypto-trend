@@ -1,0 +1,21 @@
+{
+  "name": "crypto-trend",
+  "version": "1.0.0",
+  "description": "Trade cryptocurrency according to events and trend",
+  "main": "crypto-trend.js",
+  "scripts": {
+    "start": "node crypto-trend.js"
+  },
+  "repository": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoin-chart-cli": "3.0.0",
+    "cheerio": "1.0.0-rc.2",
+    "cryptocompare": "0.2.0",
+    "google-trends-api": "4.2.2",
+    "moment": "2.19.1",
+    "node-fetch": "1.7.3",
+    "system-sleep": "1.3.6"
+  }
+}
